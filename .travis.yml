@@ -1,9 +1,10 @@
 language: node_js
 node_js:
-  - "node"
-
+- node
 deploy:
   provider: heroku
-   app: afternoon-journey-68885
   api_key:
-    secure: "a4f8341c-9751-4076-b5ad-f0c406f7dbc2"
+    secure: eFOv2FRrZ02qqAU6Zc9WQcDkie6cff2IjtWcaAoOorjXz25O+Z74n+cBza9mMsKlrF4otiPyZ09RMWWpVgtWI6a4UDlL85I0LFIJzvnUJLuH0GhYYDL3VjuwxgrdwQUXEibmRLh245/5dSPESihqbwZVQI9uww6+VPbMDGM/raY=
+  app: afternoon-journey-68885
+  on:
+    repo: heroku/node-js-getting-started
