@@ -1,4 +1,4 @@
-  function sum(a, b) {
+function sum(a, b) {
 
 let i=1
 if (a===b) return a + b;
