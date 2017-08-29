@@ -4,5 +4,6 @@ node_js:
 
 deploy:
   provider: heroku
+   app: afternoon-journey-68885
   api_key:
     secure: "a4f8341c-9751-4076-b5ad-f0c406f7dbc2"
